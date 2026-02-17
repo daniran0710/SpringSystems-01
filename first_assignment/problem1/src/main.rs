@@ -17,6 +17,7 @@ fn main () {
     let temp_c = fahrenheit_to_celsius(temp_f);
     println!("{}F = {:.2}C", temp_f, temp_c);
 
+    println!("The next five degrees in F are converted to:");
     for _ in 0..5 {
         temp_f += 1.0;
         let c = fahrenheit_to_celsius(temp_f);
